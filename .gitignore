@@ -1,0 +1,15 @@
+.gradle/
+.idea/
+build/
+framework/build/
+local.properties
+message/build/
+model/build/
+toolkit/build/
+*.iml
+captures/
+release/proguard/
+release/scripts/
+
+# OSX files
+.DS_Store
