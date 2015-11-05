@@ -2,27 +2,21 @@ package dev.derek.plugindemo;
 
 import android.content.Context;
 import android.content.Intent;
-import android.content.res.AssetManager;
-import android.content.res.Configuration;
-import android.content.res.Resources;
 import android.os.Bundle;
 import android.os.Environment;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.util.DisplayMetrics;
 import android.view.View;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.io.File;
-import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
 import dalvik.system.DexClassLoader;
-import dev.derek.pluginsdk.PluginProxyActivity;
-import dev.derek.pluginsdk.PluginStatic;
-import dev.derek.pluginsdk.PluginUtils;
+import dev.derek.pluginsdk2.PluginProxyActivity;
+import dev.derek.pluginsdk2.PluginStatic;
+import dev.derek.pluginsdk2.PluginUtils;
 
 public class HostActivity extends AppCompatActivity {
 

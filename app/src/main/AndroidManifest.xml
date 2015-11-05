@@ -18,7 +18,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="dev.derek.pluginsdk.PluginProxyActivity"
+        <activity android:name="dev.derek.pluginsdk2.PluginProxyActivity"
             />
     </application>
 
